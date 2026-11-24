@@ -1,0 +1,12 @@
+.footer{background:#2e3192;color:#d7d9f5;padding:56px 0 24px;margin-top:auto;width:100%}
+.grid{max-width:1180px;margin:0 auto;padding:0 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:36px}
+.brand{color:#fff;font-size:1.4rem;font-weight:800;letter-spacing:.5px}
+.since{display:block;margin:4px 0 14px;font-size:.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#fff200}
+.tagline{line-height:1.6;color:#d7d9f5}
+.footer h3{color:#fff200;font-size:.9rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;margin-bottom:16px}
+.footer ul{list-style:none;display:flex;flex-direction:column;gap:11px}
+.footer li a{display:inline-flex;align-items:center;gap:8px;color:#d7d9f5;transition:color .2s}
+.footer li a:hover{color:#fff;text-decoration:underline}
+.email a{word-break:break-all}
+.legal{max-width:1180px;margin:44px auto 0;padding:18px 20px 0;border-top:1px solid rgba(255,255,255,.18)}
+.legal p{font-size:.82rem;color:#aeb2e6}

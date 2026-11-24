@@ -1,0 +1,11 @@
+.shareBox{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.label{font-size:.72rem;letter-spacing:1.2px;text-transform:uppercase;color:#6b7280;font-weight:700;margin-right:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 16px;border-radius:999px;font-size:.88rem;font-weight:700;color:#fff;transition:transform .2s,filter .2s}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.btn svg{font-size:1.15rem}
+.whats{background:#25d366}
+.insta{background:linear-gradient(45deg,#f09433,#dc2743 55%,#bc1888)}
+.copy{background:#eef0f8;color:var(--primary-color)}
+.compact{gap:8px}
+.compact .btn{width:34px;height:34px;padding:0;border-radius:50%}
+.compact .btn svg{font-size:1.05rem}

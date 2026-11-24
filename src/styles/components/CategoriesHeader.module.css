@@ -1,0 +1,78 @@
+.categoriesHeader {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.categoriesHeader .categoryIconMenu {
+  font-size: 1.5rem;
+  display: none;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.categoriesHeader .titleModal {
+  display: none;
+}
+
+.categoriesHeader .categoriesButtons {
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+}
+
+.categoriesHeader .categoryButton,
+.categoriesHeader .categoryButtonSelected {
+  width: fit-content;
+  height: 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: transparent;
+  color: var(--primary-color);
+
+  font-size: 1.1rem;
+
+  transition: 200ms;
+
+  cursor: pointer;
+}
+
+.categoriesHeader .categoryButtonBack {
+  display: none;
+}
+
+.categoriesHeader .categoryButton:hover,
+.categoriesHeader .categoryButtonSelected:hover {
+  filter: brightness(1.2);
+}
+
+.categoriesHeader .categoryButtonSelected {
+  font-weight: bold;
+}
+
+.categoriesHeader .categoryButton .categoryIcon,
+.categoriesHeader .categoryButtonSelected .categoryIcon {
+  margin-right: 0.7rem;
+}
+
+@media (max-width: 1000px) {
+  .categoriesHeader .categoryButton,
+  .categoriesHeader .categoryButtonSelected {
+    font-size: 1rem;
+    flex-direction: column;
+    height: auto;
+    padding: 0.2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .categoriesHeader {
+    display: none;
+  }
+}

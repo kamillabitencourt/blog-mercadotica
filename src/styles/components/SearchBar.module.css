@@ -1,0 +1,9 @@
+.search{display:flex;align-items:center;gap:10px;width:100%;max-width:680px;margin:0 auto;padding:8px 8px 8px 20px;background:#fff;border:2px solid var(--primary-color);border-radius:999px;box-shadow:0 10px 30px rgba(46,49,146,.14)}
+.search:focus-within{box-shadow:0 0 0 4px rgba(46,49,146,.15),0 10px 30px rgba(46,49,146,.14)}
+.icon{font-size:1.4rem;color:var(--primary-color);flex-shrink:0}
+.search input{flex:1;min-width:0;font-size:1.02rem;padding:10px 0;background:transparent;color:#111827}
+.search input::placeholder{color:#8b90a3}
+.search button{padding:12px 24px;border-radius:999px;background:var(--primary-color);color:#fff;font-weight:700;font-size:.95rem;transition:filter .2s}
+.search button:hover{filter:brightness(1.15)}
+.srOnly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(max-width:520px){.search button{padding:12px 16px}.search input{font-size:.95rem}}

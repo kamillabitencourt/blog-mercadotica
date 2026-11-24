@@ -1,0 +1,16 @@
+.box{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;align-items:center;padding:36px 40px;border-radius:18px;background:var(--primary-color);color:#fff}
+.icon{font-size:1.8rem;color:var(--secondary-color);margin-bottom:8px}
+.copy h2{font-size:clamp(1.3rem,2.4vw,1.8rem);line-height:1.2;font-weight:800;margin-bottom:8px}
+.copy p{color:#d7d9f5;line-height:1.5}
+.form{display:flex;flex-direction:column;gap:12px}
+.row{display:flex;gap:8px;background:#fff;border-radius:999px;padding:6px}
+.row input{flex:1;min-width:0;padding:10px 16px;font-size:1rem;background:transparent;color:#111827}
+.row button{padding:12px 22px;border-radius:999px;background:var(--secondary-color);color:#1b1b1b;font-weight:800;white-space:nowrap;transition:filter .2s}
+.row button:hover{filter:brightness(.95)}
+.row button:disabled{opacity:.7;cursor:wait}
+.consent{display:flex;align-items:flex-start;gap:8px;font-size:.8rem;color:#d7d9f5;line-height:1.4;cursor:pointer}
+.consent input{margin-top:2px;accent-color:var(--secondary-color)}
+.success{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.05rem;color:var(--secondary-color)}
+.error{font-size:.85rem;color:#ffd0d0}
+.srOnly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media(max-width:800px){.box{grid-template-columns:1fr;padding:28px 22px;gap:20px}.row{flex-direction:column;border-radius:18px}.row button{width:100%}}

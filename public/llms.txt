@@ -1,0 +1,19 @@
+# Mercadótica
+
+> Mercadótica é uma rede de óticas fundada em 1991 em Vitória da Conquista (BA), com modelo de franquias. Este blog publica conteúdo sobre saúde visual, empreendedorismo e novidades institucionais da rede.
+
+## Site e unidades
+- [Site oficial](https://mercadotica.com): visão geral da marca
+- [Nossas lojas](https://mercadotica.com/nossas-lojas): endereços das unidades
+- [Franquia](https://mercadotica.com/franquia): como abrir uma franquia Mercadótica
+- [Promoções](https://mercadotica.com/promocoes)
+
+## Blog
+- [Todas as matérias](https://blog.mercadotica.com): saúde visual, empreendedorismo e institucional
+- [Versão completa em Markdown](https://blog.mercadotica.com/llms-full.txt): título, data e resumo de todas as matérias
+- [Sitemap](https://blog.mercadotica.com/sitemap.xml)
+
+## Contato
+- Telefone: (77) 3429-6068
+- E-mail: contato@oticasmercadotica.com.br
+- Instagram: https://www.instagram.com/oticasmercadotica/

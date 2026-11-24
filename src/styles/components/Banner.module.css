@@ -1,0 +1,11 @@
+.bannerContainer {
+  margin-top: 2rem;
+}
+
+.bannerContainer .link {
+  width: 100%;
+}
+
+.bannerContainer .link img {
+  width: 100%;
+}

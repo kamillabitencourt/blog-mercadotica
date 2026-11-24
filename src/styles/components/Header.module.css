@@ -1,0 +1,19 @@
+.header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #e6e8f0}
+.bar{max-width:1180px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:28px}
+.logo{display:flex;align-items:center;flex-shrink:0}
+.logo img{height:40px;width:auto;display:block}
+.nav{display:flex;align-items:center;gap:24px;margin-left:auto}
+.nav a{font-size:.8rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:#374151;transition:color .2s}
+.nav a:hover{color:var(--primary-color)}
+.cta{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;background:var(--secondary-color);color:#1b1b1b;font-size:.82rem;font-weight:700;transition:transform .2s,box-shadow .2s}
+.cta:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(46,49,146,.18)}
+.burger{display:none;margin-left:auto;background:none;color:var(--primary-color);padding:4px}
+.mobileMenu{display:none}
+@media(max-width:900px){
+  .nav,.cta{display:none}
+  .burger{display:flex}
+  .logo img{height:34px}
+  .mobileMenu{display:flex;flex-direction:column;padding:6px 20px 16px;border-top:1px solid #eef0f6;background:#fff}
+  .mobileMenu a{padding:13px 4px;font-weight:600;color:#1f2937;border-bottom:1px solid #f1f2f7}
+  .mobileMenu .mobileCta{margin-top:12px;text-align:center;border:0;border-radius:999px;background:var(--secondary-color);font-weight:700}
+}
